@@ -1,0 +1,51 @@
+.home{
+        background-color: #030b6b;
+        min-height: 100vh;
+    }
+
+.container{
+       padding-top: .5rem;
+       padding-bottom: 1.5rem;
+       color: #fff;
+}
+
+.logo span{
+    color: #fff;
+    margin: 0rem 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+}    
+
+.home-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 3rem;
+    
+}
+
+.home-main{
+    display: flex;
+    margin: 2rem 10rem;
+}
+
+.home-left{
+   color: #fff;
+   margin: 4rem 3rem;
+}
+
+.home-right img{
+    width: 80%;
+    border-radius: 2rem;
+    margin: 0rem 2rem;
+
+}
+
+.home-links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0rem .5rem;
+}
+
