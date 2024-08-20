@@ -20,10 +20,6 @@ const register = async (userData) => {
         const response = await axios.post(API_URL + "register", userData,
             {withCredentials: true,} // will send in cookies
         );
-        if(response.statusText === "OK"){
-            toast.success("User Registered Successfully")
-        }
-        console.log("registered", response)
         return response.data      
     } catch (error) {
         const message = (error.response && error.response.data && error.response.data.message) ||
@@ -41,10 +37,7 @@ const login = async (userData) => {
         const response = await axios.post(API_URL + "login", userData,
             {withCredentials: true,}
         );
-        if(response.statusText === "OK"){
-            toast.success("Login Successfully")
-        }
-        console.log("loginResponse", response);
+        
         return response.data    
     } catch (error) {
         const message = (error.response && error.response.data && error.response.data.message) ||

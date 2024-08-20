@@ -1,6 +1,6 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 import authServices from "./authServices";
-import { toast } from "react-toastify";
+
 
 const initialState={
  isLoading: false,
@@ -79,7 +79,6 @@ const authSlice = createSlice({
             state.isLoading = false;
             state.isSuccess = true;
             state.isLoggedIn = true;
-            toast.success("Registration Successful")
             state.message = action.payload;
         })
         .addCase(register.rejected, (state, action) => {

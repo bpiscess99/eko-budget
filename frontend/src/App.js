@@ -9,6 +9,8 @@ import Home from "./pages/home/Home.js"
 import Register from "./pages/auth/Register.js";
 import Login from "./pages/auth/Login.js";
 import Dashboard from "./pages/dashboard/Dashboard.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Items from "./pages/dashboard/inventoryModule/itemSetup/items/Items.js";
 
 // const backend = process.env.REACT_APP_BACKEND_SERVER_URL
 // console.log("backend", backend)
@@ -23,6 +25,7 @@ function App() {
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/items" element={<Items/>}/>
       </Routes>
     </Router>
     

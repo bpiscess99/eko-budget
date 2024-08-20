@@ -7,22 +7,22 @@
 }
 
 .form-register{
-    width: 20rem;
+    width: 23rem;
     padding: 1.5rem;
     animation: slide-up 0.5s ease;
     background-color: rgb(192, 192, 192);
     border-radius: 3rem;
-    height: 25rem;
+    height: 27rem;
     margin: 3rem;
 }
 
 .form-login{
-    width: 20rem;
+    width: 23rem;
     padding: 1.5rem;
     animation: slide-up 0.5s ease;
     background-color: rgb(192, 192, 192);
     border-radius: 3rem;
-    height: 20rem;
+    height: 21rem;
     margin: 3rem;
 }
 
@@ -39,7 +39,7 @@ h2{
     display: block;
     font-size: 1rem;
     font-weight: 300;
-    padding: .5rem 3.8rem;
+    padding: .5rem 4.4rem;
     margin: .3rem auto;
     border: 1px solid gray;
     border-left: ipx solid gray;
@@ -56,7 +56,7 @@ h2{
       display: block;
       font-size: 1rem;
       font-weight: 300;
-      padding: .5rem 3.8rem;
+      padding: .5rem 4.5rem;
       margin: .3rem auto;
       border: 1px solid gray;
       border-left: ipx solid gray;

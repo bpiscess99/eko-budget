@@ -64,7 +64,7 @@ const Register = () => {
 
   return (
     <div className="auth">
-      {isLoading && <Loader />}
+      {isLoading && <Loader />}/
       <div className="form-register">
         <div className="--flex-center">
           <TiUserAddOutline size={35} color="blue" />
